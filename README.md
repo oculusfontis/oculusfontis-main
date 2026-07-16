@@ -12,8 +12,8 @@ Official bilingual website for Oculus Fontis and the O.F. Studio Spatial Field s
 This repository is ready for static hosting on Cloudflare Pages.
 
 - Framework preset: None
-- Build command: leave blank
-- Build output directory: `/`
+- Build command: `exit 0`
+- Build output directory: `.`
 - Production branch: `main`
 
 The property business remains on the separate subsite: <https://land.oculusfontis.com>.

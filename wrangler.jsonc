@@ -1,8 +1,10 @@
 {
-  "$schema": "node_modules/wrangler/config-schema.json",
   "name": "oculusfontis-main",
   "compatibility_date": "2026-07-16",
+  "main": "enquiry-worker.js",
   "assets": {
-    "directory": "./"
+    "directory": "./",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/enquiry"]
   }
 }
